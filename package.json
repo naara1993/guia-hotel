@@ -1,0 +1,19 @@
+{
+  "name": "nany",
+  "version": "1.0.0",
+  "description": "Primer proyecto en node js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naara1993/guia-hotel.git"
+  },
+  "author": "naara cataldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naara1993/guia-hotel/issues"
+  },
+  "homepage": "https://github.com/naara1993/guia-hotel#readme"
+}
