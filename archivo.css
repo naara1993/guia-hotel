@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 .jumbotron  , .jumbotron-fluid{
-height: 150px;
 background-color: yellow;
 color: black;
 margin-bottom: 5%;
