@@ -1,10 +1,36 @@
 *{
   box-sizing: border-box;
 }
-.jumbotron  , .jumbotron-fluid{
+.jumbotron {
 background-color: yellow;
 color: black;
-margin-bottom: 5%;
+padding: 7%;
+}
+.nav1{
+padding-top: 0.5%;
+padding-left: 5%;
+
+
+}
+
+.terminos{
+width: 200px;
+margin-top: 1%;
+}
+a{
+  font-weight: bold;
+  color : black;
+  margin: 0%;
+}
+.co{
+   background-color: #FFF0C9;
+   width: 70%;
+   height: 60px;
+   margin-top: 2%;
+}
+
+.titulo{
+padding-top: 5%;
 }
 .t{
   text-align: center;
@@ -32,6 +58,9 @@ padding-left: 6%;
 }
 .section{
   margin-top: 6%;
+}
+.sect{
+  margin-top: 5%;
 }
 p{
   padding-left: 5%;
