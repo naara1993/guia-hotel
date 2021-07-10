@@ -59,24 +59,43 @@
   </div>
 </section>
 
-  <section  class=" sect container">
-    <div class="row">
-    <div class="col-sm-4">
-      <h2 class="t">¿ como funciona? </h2>
-      <p class=" pp  p1">    Busca los hoteles de acuerdo a tu provincia    </p>
-    </div>
-    <div class="col-sm-4">
-      <h2 class="t"> ¿ A donde puedo reservar?  </h2>
-      <p class=" pp p2">  Elegi la ciudad que te interese y luego realiza la reserva con tus datos</p>
-    </div>
-    <div class="col-sm-4">
-      <h2 class="t"> ¿como pago? </h2>
-      <p class=" pp  p3"> Utiliza tu tarjeta favorita  </p>
-    </div>
-    </div>
-  </section>
-    <hr>
+<div class="row">
+  <div class="col-sm-4">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#funciona" aria-expanded="false" aria-controls=" multicollapse1 funciona">
+      ¿ Como funciona?
+      </button>
+  </div>
+  <div class="col-sm-4">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reservar" aria-expanded="false" aria-controls=" multicollapse2 reservar">
+      ¿ A donde puedo reservar?
+      </button>
+  </div>
+  <div class="col-sm-4">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-expanded="false" aria-controls="multicollapse3 pago">
+      ¿ Como pago?
+      </button>
+  </div>
+</div>
 
+<div class="row  ">
+  <div class="col-sm-4 collapse multi-collapse" id="funciona">
+    <p>    <h2 class="t">¿ como funciona? </h2>
+      <p class=" pp  p1">    Busca los hoteles de acuerdo a tu provincia    </p>
+    </p>
+  </div>
+  <div class="col-sm-4  collapse multi-collapse" id="reservar">
+    <p>    <h2 class="t">¿ A donde puedo reservar? </h2>
+      <p class=" pp  p1">    Elegi la ciudad que te interese y luego realiza la reserva con tus datos    </p>
+    </p>
+  </div>
+  <div class="col-sm-4 collapse multi-collapse" id="pago">
+    <p>    <h2 class="t">¿ como pago ? </h2>
+      <p class="  pp  p1">    Utiliza tu tarjeta favorita     </p>
+    </p>
+  </div>
+</div>
+
+<hr>
 <div class="container-fluid">
 <picture class=" row   " >
   <img src="images/banner.jpg" class="banner img-fluid" alt="responsive image">
@@ -86,15 +105,18 @@
   <section class="  section    container   d-flex flex-wrap flex-row-reverse ">
     <div class="row" >
 
-    <div class="  c card card-hotel col-sm-3  d-flex flex-column justify-content-between">
-    <div class="card-body">
+    <div class="  card  card-hotel col-sm-3  d-flex flex-column justify-content-between">
+      <div class="card-body">
       <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
       <h4 class="card-title title-center">hotel barcelona</h4>
       <h5 class="card-subtitle text-muted">España</h5>
     <p class="card-text">Hotel ubicado en pleno centro de barcelona  a pocos metros de la playa</p>
+
+
 </div>
   <button class="  btn btn-primary" type="button" name="button">  <span class="oi oi-plus"></span> Reservar  </button>
-    </div>
+  </div>
+
 
     <div class=" card  card-hotel col-sm-3  d-flex flex-column justify-content-between">
     <div class="card-body">
@@ -130,7 +152,7 @@
 
     <div class=" separar  row">
 
-      <div class=" card  card-hotel col-sm-4  ">
+      <div class=" card  card-hotel col-sm-4 d-flex flex-column justify-content-between  ">
       <div class="card-body">
     <picture class="img">
           <img class=" card-img-top" src="images/hotel.jpg" alt="hotel img"> </picture>

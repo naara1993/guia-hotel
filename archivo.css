@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  padding: 0%;
 }
 .jumbotron {
 background-color: yellow;
@@ -12,7 +13,13 @@ padding-left: 5%;
 padding-right: 3%;
 
 }
+.card.card-hotel.col-sm-3.d-flex.flex-column.justify-content-between{
+  padding: 0%;
 
+}
+.card.card-hotel.col-sm-4.d-flex.flex-column.justify-content-between{
+padding: 0%;
+}
 .terminos{
 width: 200px;
 margin-top: 1%;
@@ -39,7 +46,7 @@ padding-top: 5%;
 p{
   font-size: 90%;
   width: 90%;
-  height: 100%;
+
 }
 .pp{
   margin-top: 5%;
@@ -67,7 +74,8 @@ p{
   margin-top: 5%;
 }
 .separar{
-  padding-top: 5%;
+  padding-top: 10%;
+  padding-right: 2%;
 }
 h4{
   padding-bottom: 5%;
@@ -82,7 +90,9 @@ h4{
 .banner{
 
 }
+.coll{
 
+}
 .address{
   padding-right: 10%;
   color: blue;
@@ -125,10 +135,12 @@ p{
   width: 100%;;
 }
 .Tit_footer{
-  padding-top: 1%;
-  margin-top: 3%;
-  font-style: italic;
+  margin-top: -10%;
+font-style: italic;
+margin: auto;
+padding-left: 20%;
 }
+
 .footer{
   margin-top: 5%;
   padding-top: 15px;
