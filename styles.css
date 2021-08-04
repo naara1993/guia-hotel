@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0%; }
+
+.banner {
+  margin-bottom: 50%; }
+
+.jumbotron {
+  background-color: gray;
+  color: black;
+  padding: 7%; }
+
+.nav1 {
+  padding-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 3%; }
+
+.card.card-hotel.col-sm-3.d-flex.flex-column.justify-content-between {
+  padding: 0%; }
+
+.carousel {
+  margin-top: 5%;
+  width: auto; }
+
+.card.card-hotel.col-sm-4.d-flex.flex-column.justify-content-between {
+  padding: 0%; }
+
+.terminos {
+  width: 200px;
+  margin-top: 1%; }
+
+a {
+  font-weight: bold;
+  color: black;
+  margin: 0%; }
+
+.co {
+  background-color: #FFF0C9;
+  width: 70%;
+  height: 60px;
+  margin-top: 2%; }
+
+.titulo {
+  padding-top: 5%; }
+
+.t {
+  text-align: center;
+  margin-bottom: 1%; }
+
+p {
+  font-size: 90%;
+  width: 90%; }
+
+.pp {
+  margin-top: 5%;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center; }
+
+.p1 {
+  padding-left: 6%; }
+
+.p2 {
+  padding-left: 6%; }
+
+.p3 {
+  padding-left: 6%; }
+
+.section {
+  margin-top: 6%; }
+
+.sect {
+  margin-top: 5%; }
+
+p {
+  padding-left: 5%;
+  margin-top: 5%; }
+
+.separar {
+  padding-top: 10%;
+  padding-right: 2%; }
+
+h4 {
+  padding-bottom: 5%;
+  padding-left: 10%;
+  font-style: italic; }
+
+.btn {
+  border-radius: 4.25rem; }
+
+.propiedad-carousel {
+  margin-top: 5%; }
+
+.imagen {
+  padding-left: 17%;
+  width: 85%;
+  height: 60%; }
+
+.address {
+  padding-right: 10%;
+  color: blue; }
+
+.title-center {
+  text-align: center; }
+
+.p {
+  margin-left: 5%;
+  padding-left: 5%; }
+
+.card {
+  padding: 0%;
+  padding-top: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%; }
+
+.card-img-top {
+  box-sizing: border-box;
+  width: 300px;
+  height: 150px; }
+
+h5 {
+  text-align: center;
+  padding-top: 1%; }
+
+p {
+  padding-top: 1%;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center; }
+
+.btn {
+  padding-top: 5%;
+  margin-top: 5%;
+  width: 100%; }
+
+.Tit_footer {
+  margin-top: -10%;
+  font-style: italic;
+  margin: auto;
+  padding-left: 20%; }
+
+.footer {
+  margin-top: 5%;
+  padding-top: 15px;
+  background-color: gray; }
+
+.r {
+  padding: 3%;
+  padding-bottom: 5%; }
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 2%; }
+
+.Columna1 {
+  padding: 1%; }
